@@ -13,11 +13,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="antialiased">
-        <div>
-          <header>GNB</header>
-          <main>{children}</main>
-          <footer>FOOTER</footer>
+      <body className="bg-background">
+        <div className="max-w-sm mx-auto min-h-screen">
+          <div>{children}</div>
         </div>
       </body>
     </html>
